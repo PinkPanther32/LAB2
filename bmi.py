@@ -10,11 +10,11 @@ def calculate_bmi(height, weight):
     
     #conditional operaters to test if determine the weight classification of bmi
     if bmi > 25.0:
-        print ("Your weight classification would be Over Weight")
+        print ("1")
     elif bmi <= 25.0 and bmi >= 18.5:
-        print("Your weight classification would be Normal Weight") 
+        print("0") 
     else:
-        print("YOur weight classification would be Under Weight")
+        print("-1")
             
         
 calculate_bmi(weight = 57, height = 1.73)
